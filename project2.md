@@ -11,9 +11,12 @@ Fork & Clone this repo.
 - [ ] In this space below, list **THREE** ideas for your Project 2. For each idea, include [user stories](https://www.atlassian.com/agile/project-management/user-stories) for each idea and a link to the API(s) you want to use for it.
 
 --------------------------------------------------------
-1. 
-2. 
-3.
+1. BeautyApp- Application for a Makeup Artist. Wants to include pictures of work, testimonials, booking availibilty and ability, link to socials and profiles for clients. https://rapidapi.com/SuperSaaS/api/supersaas-online-bookings-and-appointment-scheduling/
+
+2. Heard This Before?- App about songs that have been sampled or includes samples. Want to include polls, comment ability, add your own polls/topics,  profiles/logins, post to social ability. https://rapidapi.com/pfeeyatko/api/sampled-by/
+
+3.Man! I'm Hungry- App that takes an account of food you have in your kitchen and gives you a recipe. provides nutirional value, receipe suggestions, receipes based on budget, commenting ability, rating recipes, can post your dish or own receipes, make a profile to keep up and send reminders when you may be out of food. https://rapidapi.com/webknox/api/recipe/
+
 ---------------------------------------------------------
 
 - [ ] Make a PR when you're done!
