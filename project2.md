@@ -34,10 +34,11 @@ In the space below:
 ### ERD
 
 ----------------------------------------------------------
-### User Stories
+### User Stories- As a Makeup Artist, I want to be able to show my
+portofolio, information about me,
 
 ----------------------------------------------------------
-### Wireframes
+### Wireframes  BCW-Beautyapp.png
 
 ----------------------------------------------------------
 
