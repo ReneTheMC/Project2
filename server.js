@@ -16,28 +16,16 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-app.get('/home', (req, res) => {
-  res.render('home');
+app.get('/contact', (req, res) => {
+  res.render('contact');
 });
 
 app.get('/services', (req,res) => {
   res.render('services');
 });
 
-app.get('/about', (req,res) => {
-  res.render('about');
-});
-
-app.get('/portfolio', (req,res) => {
-  res.render('portfolio');
-});
-
-app.get('/contact', (req,res) => {
-  res.render('contact');
-});
-
 app.get('/contact/info', (req,res) => {
-  res.render('contact/info');
+  res.render('contact');
 });
 
 app.get('/booking', (req,res) => {
@@ -45,15 +33,15 @@ app.get('/booking', (req,res) => {
 });
 
 app.get('/signup', (req,res) => {
-  res.render('signup');
+  res.render('auth/signup');
 });
 
 app.get('/login', (req,res) => {
-  res.render('login');
+  res.render('auth/login');
 });
 
 app.get('/logout', (req,res) => {
-  res.render('logout');
+  res.render('auth/logout');
 });
 
 //delete, change, post routes below
