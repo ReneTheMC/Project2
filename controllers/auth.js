@@ -10,20 +10,21 @@ router.get("/signup", (req, res) => {
 });
 
 // POST /signup - create a new user
-router.post('/signup', (req, res) => {
-  db.user.create({
+router.post('/signup', (req, res) => 
+ db.user.create({
     name: req.body.name,
     email: req.body.email,
     password: req.body.password
   })
-  .then((post) => {
-    res.redirect('/')
-  })
-  .catch((error) => {
-    res.status(400).render('404')
-  })
-})
-
+  .then((user => {
+    res.redirect('index', `(${user})`) 
+  })).catch((err => {
+    res.render("index")
+    console.log(err)})
+  )
+);
+   
+  
 //Login Get Route
 router.get("/login", (req, res) => {
   res.render("auth/login");
@@ -45,14 +46,13 @@ const errors = validationResult(req);
 if (!errors.isEmpty()) {
   return res.status(422).json({ errors: errors.array()});
 }
-else{
+else {
   let username = req.body.email;
   let password = req.body.password;
-  res.redirect('/',`Email: ${username} Password: ${password}`);
-}
-});
-
-
+  res.render("index",(`Email: ${username} Password: ${password}`));
+}console.log(err)});
+//res.render("index")
+  //console.log(err)});
 
 
 router.get("/logout", (req,res) => {
