@@ -35,7 +35,7 @@ In the space below:
 
 ----------------------------------------------------------
 ### User Stories- As a Makeup Artist, I want to be able to show my
-portofolio, information about me,
+portofolio, information about me, and my users can book appointments.
 
 ----------------------------------------------------------
 ### Wireframes  BCW-Beautyapp.png

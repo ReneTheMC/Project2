@@ -1,1 +1,12 @@
 <h1>Booking page</h1>
+
+<form action="/booking/putBooking?_method=PUT" method="POST">
+    <input type="text" name="booking" hidden value="testing put">
+    <button type="submit">Testing Booking</button>
+</form>
+
+
+<form action="/booking/deleteBooking?_method=DELETE" method="POST">
+    <input type="text" name="booking" hidden value="testing delete">
+    <button type="submit">Delete booking</button>
+</form>
